@@ -1,6 +1,6 @@
 def add(a,b):
 	print("adding %d + %d " % (a,b))
-	return a+b
+	return a + b
 
 def subtract(a,b):
 	print("substract %d - %d " % (a,b))
