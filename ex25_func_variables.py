@@ -7,11 +7,11 @@ def sort_words(words):
 
 def print_first_word(words):
 	"""prints the first word after popping it off """
-	word = word.pop(0)
+	word = words.pop(0)
 	print(word)
 
 def print_last_word(words):
-	word = word.pop(-1)
+	word = words.pop(-1)
 	print(word)
 
 def sort_sentence(sentence):
