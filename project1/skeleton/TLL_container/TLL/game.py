@@ -5,7 +5,7 @@ class SingleLinkedListNode(object):
 		self.next = nxt
 	def __repr__(self):
 		nval = self.next and self.next.value or None
-		return (f"{self.value}:{repr(nval)}")
+		return f"[{self.value}:{repr(nval)}]"
 
 
 class SingleLinkedList(object):
@@ -13,6 +13,7 @@ class SingleLinkedList(object):
 	def __init__(self):
 		self.begin = None
 		self.end = None
+	
 	def push(self, obj):
 		"""Appends a new value on the end of the list."""
 
